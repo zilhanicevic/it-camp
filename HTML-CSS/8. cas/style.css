@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+}
+.main1 {
+  background-color: brown;
+  width: 500px;
+  height: 500px;
+  border: 3px solid black;
+  margin: 50px;
+  /* margin right je margina u odnosu na desnu stranu */
+
+  margin-right: 30px;
+
+  /* margina top u odnosu na gornji deo */
+  margin-top: 30px;
+  /* margin bottom za donji deo */
+  margin-bottom: 10px;
+  /* margin left za levi deo */
+  margin-left: 20px;
+  /* top right bottom i left */
+  margin: 50px 40px 30px 20px;
+  /* top & bottom, druga je right & left */
+  margin: 50px 20px;
+  /* top, right & left i bottom*/
+  margin: 50px 20px 35px;
+  /* margin auto centrira kontejner */
+  margin: auto;
+  margin: 30px auto;
+
+  padding: 0px 0px;
+  border-radius: 10px; /* za zaobljenu ivicu */
+  border-radius: 10px 5px 15px 0px;
+
+  border-bottom-left-radius: 10px;
+}
+#naslov {
+  text-align: center;
+}
+#podnaslov {
+  text-transform: capitalize;
+}
+
+p {
+  text-align: justify;
+  text-indent: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main2 {
+  background-color: rgb(220, 245, 231);
+  border: 3px solid black;
+  border-radius: 10px 10px 10px 15px;
+  width: 500px;
+  height: 500px;
+
+  /* margin auto centrira kontejner */
+  /* margin 100px auto, je razmak izmedju kontejnera */
+
+  margin: 100px auto;
+}
+
+.main p {
+  text-align: justify;
+}
+#podnaslov2 {
+  text-align: right;
+  padding: auto;
+}
+#par {
+  text-align: right;
+}
+#podnaslov3 {
+  text-transform: uppercase;
+  text-align: center;
+}

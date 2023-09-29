@@ -1,0 +1,65 @@
+body {
+  background-color: beige;
+}
+
+.Glavni {
+  width: 501px;
+
+  margin-top: 20px;
+  margin-right: 60px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  /* margin auto za postavljanje kartice na centar ekrana */
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+
+  /* overflow: visible; */ /*defaultna vrednost za pisanje teksta koji ce stati u parent element, pravougaonk*/
+  /* overflow: hidden; sakriva se sadrzaj koji prelazi Parent element */
+  /* za skrolovanje */
+  /* owerflow scroll dodaje skrol bar u svakom slucaju */
+  /* overflow: scroll; */
+  overflow: auto;
+  /* dodaje scroll bar kada je neophodno */
+
+  display: block;
+  /* za dodavanje kartica jedna pored druge */
+  display: inline-block;
+  box-shadow: 3px 3px 8px rgb(255, 21, 21, 0.801),
+    -3px - 3px 12px rgba(31, 25, 25, 0.801);
+}
+/* Block level elementi: */
+/* <h1>,<h2>,<h3>,<h4>,<h5>,<h6> */
+/* <p> */
+/* <div>,<main>,<article>,<section>,<header>,<footer> */
+/* <ol>,<ul>,<li>, */
+
+/* In line elementi */
+/* <input>,<a>,<span>,<button>,<textarea> */
+/* <img> tag je inline-block element - to su elementi koji dozvoljavaju definisanje sirine i visine za razliku od inline elemenata */
+/* <img> */
+
+.PrviKontejner img:hover {
+  /* border-radius: 15px; */
+
+  /* .main img:hover za promenu slike prilikom prelaska misem */
+  content: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=1060&t=st=1695666380~exp=1695666980~hmac=693f07720c509a2b7d18299dac5d6906ee4934ccae5a22176e6dd1ac65d1a54f);
+}
+
+.DrugiKontejner {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+#naslov {
+  text-align: center;
+}
+
+#podnaslov {
+  text-transform: capitalize;
+}
+p {
+  text-align: justify;
+  text-indent: 30px;
+}

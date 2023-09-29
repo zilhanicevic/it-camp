@@ -1,0 +1,37 @@
+body {
+  background-color: beige;
+}
+
+.Glavni {
+  width: 527px;
+  margin: auto;
+  border: 3px solid black;
+}
+
+.PrviKontejner {
+  width: 500px;
+  height: 200px;
+  margin: 10px 50px;
+  margin-left: 30px;
+}
+
+.DrugiKontejner {
+  width: 500px;
+  height: 400px;
+
+  text-align: justify;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+#naslov {
+  text-align: center;
+}
+
+#podnaslov {
+  text-transform: capitalize;
+}
+p {
+  text-align: justify;
+  text-indent: 30px;
+}

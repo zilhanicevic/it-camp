@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+      /* h1 predstavlja css selektor sto je zapravo pravilo pomocu kojeg pristupamo html elementu sa
+      kojim zelimo da definisemo stilove */
+      h1 {
+        /* color predstavlja css property odnosno svojstvo */
+
+        color: red;
+      }
+      p {
+        /* font-size: 16px; standardna velicina slova je 16px  */
+        font-size: 18px;
+        text-indent: 40px;
+        /* text-align: left; defaultna vrednost je left */
+        text-align: right;
+        text-align: center;
+        /* primenice se poslednje svojstvo */
+        text-align: justify;
+        text-align-last: right;
+        text-transform: uppercase;
+        /* text-transform pretvaranje celog paragrafa u velika slova */
+        text-transform: capitalize;
+        text-transform: none;
+        text-transform: lowercase;
+        color: blueviolet;
+      }
+
+      ul {
+        list-style-position: inside;
+      }
+
+      .prvi {
+        background-color: antiquewhite;
+        width: 400px;
+        height: 400px;
+      }
+      #naslov {
+        color: blue;
+      }
+      /* id ima prioritet u odnosu na klasu kada se radi o primeni stilova */
+      /* obicno cemo koristiti id ako zelimo da definisemo neki jedinstven element */
+      .naslov {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- klasa prvi pristupamo sa prefiksom . u css-u -->
+    <div class="prvi">
+      <!-- Jezik za definisanje stilova na nasoj strani -->
+      <h1>Danas radimo CSS</h1>
+      <!-- id naslov pristupamo sa prefiksom # -->
+      <h2 id="naslov" class="naslov">
+        CSS mozemo primeniti na nekoliko nacina
+      </h2>
+      <ul>
+        <li style="color: blue; text-align: center">inline stilovi</li>
+        <li>stilovi definisani unutar head taga</li>
+        <li>eksterni stilovi</li>
+      </ul>
+    </div>
+    <!-- kucanjem LOREM dobicemo random tekst -->
+    <div>
+      <h1>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sed
+        tempore, laudantium libero sit ex sapiente assumenda dolorum rem
+        officia, voluptatum ut cumque tempora exercitationem harum aliquid
+        laboriosam ipsa ullam!
+      </h1>
+      <!-- style imaju prioritet na sve ostalo -->
+      <p style="color: brown">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sed
+        tempore, laudantium libero sit ex sapiente assumenda dolorum rem
+        officia, voluptatum ut cumque tempora exercitationem harum aliquid
+        laboriosam ipsa ullam! Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Recusandae nostrum maxime fuga qui quidem sunt
+        consequuntur corrupti accusamus saepe dolorem. Mollitia tempore dolorem
+        neque aperiam odio molestiae ad amet? Repudiandae eligendi ullam
+        impedit, dolorum eaque mollitia tempora quae rem exercitationem error
+        repellat in at voluptas dignissimos odio nemo velit hic!
+      </p>
+    </div>
+  </body>
+</html>

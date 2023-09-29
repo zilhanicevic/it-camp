@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+}
+
+.first {
+  width: 600px;
+  height: 600px;
+  padding: 15px;
+  background-image: url(https://www.musicar.rs/bws-gallery/umetnicke-slike/);
+  background-repeat: no-repeat;
+  background-repeat: ;
+  background-size: cover;
+  background-size: 300px 400px;
+  background-size: 100% 100$;
+}
+.first h1,
+p {
+  color: white;
+}
+
+.first {
+  letter-spacing: 2px;
+}
+.first {
+}
+/* box-sizzing */
